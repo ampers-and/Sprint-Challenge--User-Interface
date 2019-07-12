@@ -271,3 +271,63 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: crimson;
 }
+
+.box:nth-child(1):hover{
+  border:2px solid teal;
+  background:white !important;
+  color:teal;
+}
+
+.box:nth-child(2):hover{
+  border:2px solid gold;
+  background:white !important;
+  color:gold;
+}
+
+.box:nth-child(3):hover{
+  border:2px solid cadetblue;
+  background:white !important;
+  color:cadetblue;
+}
+
+.box:nth-child(4):hover{
+  border:2px solid coral;
+  background:white !important;
+  color:coral;
+}
+
+.box:nth-child(5):hover{
+  border:2px solid crimson;
+  background:white !important;
+  color:crimson;
+}
+
+.box:nth-child(6):hover{
+  border:2px solid forestgreen;
+  background:white !important;
+  color:forestgreen;
+}
+
+.box:nth-child(7):hover{
+  border:2px solid darkorchid;
+  background:white !important;
+  color:darkorchid;
+}
+
+.box:nth-child(8):hover{
+  border:2px solid hotpink;
+  background:white !important;
+  color:hotpink;
+}
+
+.box:nth-child(9):hover{
+  border:2px solid indigo;
+  background:white !important;
+  color:indigo;
+}
+
+.box:nth-child(10):hover{
+  border:2px solid dodgerblue;
+  background:white !important;
+  color:dodgerblue;
+}
