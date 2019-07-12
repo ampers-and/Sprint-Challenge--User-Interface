@@ -145,6 +145,9 @@ footer nav a {
     text-decoration: none;
 }
 
+header{
+    margin:20px 0;
+}
 header nav{
   display:flex;
   justify-content:space-between;
@@ -157,4 +160,44 @@ header nav a{
   color:black;
   font-family:Roboto;
   display:flex;
+}
+
+.box:nth-child(1){
+  background:teal !important;
+}
+
+.box:nth-child(2){
+  background:gold !important;
+}
+
+.box:nth-child(3){
+  background:cadetblue !important;
+}
+
+.box:nth-child(4){
+  background:coral !important;
+}
+
+.box:nth-child(5){
+  background:crimson !important;
+}
+
+.box:nth-child(6){
+  background:forestgreen !important;
+}
+
+.box:nth-child(7)){
+  background:darkorchid !important;
+}
+
+.box:nth-child(8){
+  background:hotpink !important;
+}
+
+.box:nth-child(9){
+  background:indigo !important;
+}
+
+.box:nth-child(10){
+  background:dodgerblue !important;
 }
