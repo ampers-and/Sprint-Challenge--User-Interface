@@ -201,3 +201,47 @@ header nav a{
 .box:nth-child(10){
   background:dodgerblue !important;
 }
+
+.top{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  border-bottom:1px dashed black;
+  margin:20px 0;
+  padding:20px;
+}
+
+.main{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-items:space-between;
+}
+
+.main .row{
+  display:flex;
+}
+
+.main .text{
+  border-bottom:1px dashed black;
+  padding:20px 0;
+  margin:10px 20px 10px 10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  height:500px;
+}
+
+button{
+  font-size:20px;
+  font-family:Roboto;
+  background:white;
+  border-radius:10px;
+  border:2px solid black;
+  width:150px;
+}
+
+.bottom{
+  margin:30px 0;
+  
+}
